@@ -1,31 +1,30 @@
-# [Project Name] 🎯
+# FileFetch 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Codex
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Ajmala Nasri- College of Engineering Pathanapuram
+- Member 2: Aiswarya Pradeep - College of Engineering Pathanapuram
+- Member 3: Niranjan V P - College of Engineering Pathanapuram
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+FileFetch is a one-stop solution for organizing and managing your important documents efficiently before recieving a service from Akshaya Kendra. Whether it's any type of service recieving, FileFetch helps you organize your documents beforehand at ease.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
-
+We are solving the inconvenience faced by local peoples to organize the documents that needed to be submitted while accessing services from Akshaya Kendra prior.
 ### The Solution
-[How are you solving it? Keep it fun!]
+We created a website which is accessable for every individual,basically we opt it as a public service.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- React.js,Html,Css
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -41,13 +40,13 @@ For Software:
 [commands]
 
 # Run
-[commands]
+npm start
 
 ### Project Documentation
-For Software:
+For Software:/Users/ajmala_nasri/.Trash/filefetch/README.md
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
@@ -69,7 +68,7 @@ For Hardware:
 ![Schematic](Add your schematic diagram here)
 *Add caption explaining the schematic*
 
-# Build Photos
+# Build Photos /Users/ajmala_nasri/.Trash/filefetch/README.md
 ![Team](Add photo of your team here)
 
 
@@ -91,9 +90,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Ajmala Nasri: [Specific contributions]
+- Aiswarya Pradeep;: [Specific contributions]
+- Niranjana V P: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub

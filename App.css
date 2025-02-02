@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+/* Remove default list styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove default anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4CAF50;
+  padding: 15px 20px;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #3e8e41;
+}
+
+/* Main Content */
+main {
+  text-align: center;
+  margin: 20px;
+}
+
+.main-heading {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Box Container */
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Dropdown Box */
+.box {
+  position: relative;
+  background-color: #ffcc00;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  width: 200px;
+  text-align: center;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  background-color: #ffd633;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  min-width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  padding: 10px;
+  color: black;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .box-container {
+      width: 90%;
+  }
+}
